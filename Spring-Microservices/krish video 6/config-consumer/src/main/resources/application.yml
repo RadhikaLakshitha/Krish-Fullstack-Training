@@ -1,0 +1,9 @@
+#spring:
+ # cloud:
+    #config:
+     # uri: http://localhost:8191
+# default port is 8888.. if you want to run on given port use above code in bootstrap.yml
+
+spring:
+  application:
+    name: membership
