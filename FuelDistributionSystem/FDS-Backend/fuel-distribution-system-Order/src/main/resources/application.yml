@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://Radhika:Radhika@fuelappdb.jlxrxmq.mongodb.net/?retryWrites=true&w=majority
+      host: localhost
+      port: 27017
+      database: FuelAppDB
+      username: Radhika
+      password: Radhika
+
+server:
+  port: 8080
+
+  kafka:
+    bootstrap-servers: 9092

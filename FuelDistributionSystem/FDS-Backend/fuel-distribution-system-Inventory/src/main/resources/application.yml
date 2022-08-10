@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://Radhika:Radhika@fuelappdb.jlxrxmq.mongodb.net/?retryWrites=true&w=majority
+      database: FuelAppDB
+
+
+server:
+  port: 8081
+
+
+  kafka:
+    bootstrap-servers: 9092
